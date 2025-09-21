@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rverflow"
+version = "0.1.0"
+description = "R package dependency resolver for CRAN, Bioconductor, and GitHub."
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31",
+    "pyyaml>=6.0"
+]
+
+[project.scripts]
+rverflow = "rverflow.cli:main"

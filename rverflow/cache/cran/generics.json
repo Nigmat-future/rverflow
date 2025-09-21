@@ -1,0 +1,270 @@
+{
+  "_id": "generics",
+  "_rev": "9-5b031fc32afa3070bd8c115f80aa99a5",
+  "archived": false,
+  "latest": "0.1.4",
+  "name": "generics",
+  "timeline": {
+    "0.0.1": "2018-10-26T13:30:03+00:00",
+    "0.0.2": "2018-11-29T12:20:03+00:00",
+    "0.1.0": "2020-10-31T05:10:15+00:00",
+    "0.1.1": "2021-10-25T20:50:02+00:00",
+    "0.1.2": "2022-01-31T22:30:02+00:00",
+    "0.1.3": "2022-07-05T18:40:02+00:00",
+    "0.1.4": "2025-05-09T22:50:06+00:00"
+  },
+  "title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
+  "versions": {
+    "0.0.1": {
+      "Author": "Max Kuhn [aut, cre],\nHadley Wickham [aut],\nDavis Vaughan [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Max\", \"Kuhn\", , \"max@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", \"aut\"),\nperson(\"Davis\", \"Vaughan\", , \"davis@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\"))",
+      "BugReports": "https://github.com/r-lib/generics",
+      "Date/Publication": "2018-10-26 14:30:03 UTC",
+      "Depends": {
+        "R": ">= 3.1"
+      },
+      "Description": "In order to reduce potential package dependencies and conflicts,\ngenerics provides a number of commonly used S3 generics.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "methods": "*"
+      },
+      "LazyData": "true",
+      "License": "GPL-2",
+      "MD5sum": "0372894a35b863452ee640286a644ae8",
+      "Maintainer": "Max Kuhn <max@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "generics",
+      "Packaged": "2018-10-16 20:32:15 UTC; max",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.1.0.9000",
+      "Suggests": {
+        "covr": "*",
+        "pkgload": "*",
+        "testthat": "*",
+        "tibble": "*"
+      },
+      "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
+      "URL": "https://github.com/r-lib/generics",
+      "Version": "0.0.1",
+      "crandb_file_date": "2018-10-26 14:32:26",
+      "date": "2018-10-26T13:30:03+00:00",
+      "releases": []
+    },
+    "0.0.2": {
+      "Author": "Max Kuhn [aut, cre],\nHadley Wickham [aut],\nDavis Vaughan [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Max\", \"Kuhn\", , \"max@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", \"aut\"),\nperson(\"Davis\", \"Vaughan\", , \"davis@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\"))",
+      "BugReports": "https://github.com/r-lib/generics",
+      "Date/Publication": "2018-11-29 13:20:03 UTC",
+      "Depends": {
+        "R": ">= 3.1"
+      },
+      "Description": "In order to reduce potential package dependencies and conflicts,\ngenerics provides a number of commonly used S3 generics.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "methods": "*"
+      },
+      "LazyData": "true",
+      "License": "GPL-2",
+      "MD5sum": "9b4d9351c6c413e6f67ec7a041217946",
+      "Maintainer": "Max Kuhn <max@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "generics",
+      "Packaged": "2018-11-29 13:00:32 UTC; max",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.1.1",
+      "Suggests": {
+        "covr": "*",
+        "pkgload": "*",
+        "testthat": "*",
+        "tibble": "*"
+      },
+      "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
+      "URL": "https://github.com/r-lib/generics",
+      "Version": "0.0.2",
+      "crandb_file_date": "2018-11-29 13:26:23",
+      "date": "2018-11-29T12:20:03+00:00",
+      "releases": []
+    },
+    "0.1.0": {
+      "Author": "Hadley Wickham [aut, cre],\nMax Kuhn [aut],\nDavis Vaughan [aut],\nRStudio [cph]",
+      "Authors@R": "\nc(person(given = \"Hadley\",\nfamily = \"Wickham\",\nrole = c(\"aut\", \"cre\"),\nemail = \"hadley@rstudio.com\"),\nperson(given = \"Max\",\nfamily = \"Kuhn\",\nrole = \"aut\",\nemail = \"max@rstudio.com\"),\nperson(given = \"Davis\",\nfamily = \"Vaughan\",\nrole = \"aut\",\nemail = \"davis@rstudio.com\"),\nperson(given = \"RStudio\",\nrole = \"cph\"))",
+      "BugReports": "https://github.com/r-lib/generics/issues",
+      "Date/Publication": "2020-10-31 06:10:15 UTC",
+      "Depends": {
+        "R": ">= 3.1"
+      },
+      "Description": "In order to reduce potential package dependencies\nand conflicts, generics provides a number of commonly used S3\ngenerics.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "methods": "*"
+      },
+      "LazyData": "true",
+      "License": "MIT + file LICENSE",
+      "MD5sum": "500c43d1d3f1ebea9d708174daaaedd3",
+      "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "generics",
+      "Packaged": "2020-10-30 18:38:40 UTC; hadley",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.1.1",
+      "Suggests": {
+        "covr": "*",
+        "pkgload": "*",
+        "testthat": "*",
+        "tibble": "*"
+      },
+      "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
+      "URL": "https://generics.r-lib.org, https://github.com/r-lib/generics",
+      "Version": "0.1.0",
+      "crandb_file_date": "2020-10-31 06:38:30",
+      "date": "2020-10-31T05:10:15+00:00",
+      "releases": []
+    },
+    "0.1.1": {
+      "Author": "Hadley Wickham [aut, cre],\nMax Kuhn [aut],\nDavis Vaughan [aut],\nRStudio [cph]",
+      "Authors@R": "\nc(person(given = \"Hadley\",\nfamily = \"Wickham\",\nrole = c(\"aut\", \"cre\"),\nemail = \"hadley@rstudio.com\"),\nperson(given = \"Max\",\nfamily = \"Kuhn\",\nrole = \"aut\",\nemail = \"max@rstudio.com\"),\nperson(given = \"Davis\",\nfamily = \"Vaughan\",\nrole = \"aut\",\nemail = \"davis@rstudio.com\"),\nperson(given = \"RStudio\",\nrole = \"cph\"))",
+      "BugReports": "https://github.com/r-lib/generics/issues",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2021-10-25 21:50:02 UTC",
+      "Depends": {
+        "R": ">= 3.2"
+      },
+      "Description": "In order to reduce potential package dependencies\nand conflicts, generics provides a number of commonly used S3\ngenerics.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "methods": "*"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "38e97ed4c5af0d1998f3910f3e04b2b0",
+      "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "generics",
+      "Packaged": "2021-10-25 20:55:49 UTC; max",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.1.2",
+      "Suggests": {
+        "covr": "*",
+        "pkgload": "*",
+        "testthat": ">= 3.0.0",
+        "tibble": "*",
+        "withr": "*"
+      },
+      "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
+      "URL": "https://generics.r-lib.org, https://github.com/r-lib/generics",
+      "Version": "0.1.1",
+      "crandb_file_date": "2021-10-25 23:08:29",
+      "date": "2021-10-25T20:50:02+00:00",
+      "releases": []
+    },
+    "0.1.2": {
+      "Author": "Hadley Wickham [aut, cre],\nMax Kuhn [aut],\nDavis Vaughan [aut],\nRStudio [cph]",
+      "Authors@R": "\nc(person(given = \"Hadley\",\nfamily = \"Wickham\",\nrole = c(\"aut\", \"cre\"),\nemail = \"hadley@rstudio.com\"),\nperson(given = \"Max\",\nfamily = \"Kuhn\",\nrole = \"aut\",\nemail = \"max@rstudio.com\"),\nperson(given = \"Davis\",\nfamily = \"Vaughan\",\nrole = \"aut\",\nemail = \"davis@rstudio.com\"),\nperson(given = \"RStudio\",\nrole = \"cph\"))",
+      "BugReports": "https://github.com/r-lib/generics/issues",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2022-01-31 23:30:02 UTC",
+      "Depends": {
+        "R": ">= 3.2"
+      },
+      "Description": "In order to reduce potential package dependencies\nand conflicts, generics provides a number of commonly used S3\ngenerics.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "methods": "*"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "427eb0788592d5a15b0d44c678db199e",
+      "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "generics",
+      "Packaged": "2022-01-31 22:58:18 UTC; hadley",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.1.2",
+      "Suggests": {
+        "covr": "*",
+        "pkgload": "*",
+        "testthat": ">= 3.0.0",
+        "tibble": "*",
+        "withr": "*"
+      },
+      "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
+      "URL": "https://generics.r-lib.org, https://github.com/r-lib/generics",
+      "Version": "0.1.2",
+      "crandb_file_date": "2022-02-01 01:02:28",
+      "date": "2022-01-31T22:30:02+00:00",
+      "releases": []
+    },
+    "0.1.3": {
+      "Author": "Hadley Wickham [aut, cre],\nMax Kuhn [aut],\nDavis Vaughan [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = c(\"aut\", \"cre\")),\nperson(\"Max\", \"Kuhn\", , \"max@rstudio.com\", role = \"aut\"),\nperson(\"Davis\", \"Vaughan\", , \"davis@rstudio.com\", role = \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "BugReports": "https://github.com/r-lib/generics/issues",
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2022-07-05 19:40:02 UTC",
+      "Depends": {
+        "R": ">= 3.2"
+      },
+      "Description": "In order to reduce potential package dependencies and\nconflicts, generics provides a number of commonly used S3 generics.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "methods": "*"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "655261e97ea23c9193b047a27eee5d0e",
+      "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "generics",
+      "Packaged": "2022-07-05 14:52:13 UTC; davis",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.2.0",
+      "Suggests": {
+        "covr": "*",
+        "pkgload": "*",
+        "testthat": ">= 3.0.0",
+        "tibble": "*",
+        "withr": "*"
+      },
+      "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
+      "URL": "https://generics.r-lib.org, https://github.com/r-lib/generics",
+      "Version": "0.1.3",
+      "crandb_file_date": "2022-07-05 20:44:34",
+      "date": "2022-07-05T18:40:02+00:00",
+      "releases": []
+    },
+    "0.1.4": {
+      "Author": "Hadley Wickham [aut, cre] (ORCID:\n<https://orcid.org/0000-0003-4757-117X>),\nMax Kuhn [aut],\nDavis Vaughan [aut],\nPosit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
+      "Authors@R": "c(\nperson(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\ncomment = c(ORCID = \"0000-0003-4757-117X\")),\nperson(\"Max\", \"Kuhn\", , \"max@posit.co\", role = \"aut\"),\nperson(\"Davis\", \"Vaughan\", , \"davis@posit.co\", role = \"aut\"),\nperson(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\ncomment = c(ROR = \"https://ror.org/03wc8by49\"))\n)",
+      "BugReports": "https://github.com/r-lib/generics/issues",
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2025-05-09 23:50:06 UTC",
+      "Depends": {
+        "R": ">= 3.6"
+      },
+      "Description": "In order to reduce potential package dependencies and\nconflicts, generics provides a number of commonly used S3 generics.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "methods": "*"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "dda54b65216fe3c53571d2adaddc7461",
+      "Maintainer": "Hadley Wickham <hadley@posit.co>",
+      "NeedsCompilation": "no",
+      "Package": "generics",
+      "Packaged": "2025-05-09 18:17:41 UTC; hadleywickham",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.3.2",
+      "Suggests": {
+        "covr": "*",
+        "pkgload": "*",
+        "testthat": ">= 3.0.0",
+        "tibble": "*",
+        "withr": "*"
+      },
+      "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
+      "URL": "https://generics.r-lib.org, https://github.com/r-lib/generics",
+      "Version": "0.1.4",
+      "crandb_file_date": "2025-05-09 23:51:59",
+      "date": "2025-05-09T22:50:06+00:00",
+      "releases": []
+    }
+  }
+}

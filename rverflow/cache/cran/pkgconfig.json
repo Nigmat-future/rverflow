@@ -1,0 +1,154 @@
+{
+  "_id": "pkgconfig",
+  "_rev": "8-aa518624dab6364e139e4f148ea00dcf",
+  "latest": "2.0.3",
+  "name": "pkgconfig",
+  "timeline": {
+    "1.0.0": "2015-07-13T08:30:36+00:00",
+    "2.0.0": "2015-07-18T17:36:41+00:00",
+    "2.0.1": "2017-03-21T14:20:20+00:00",
+    "2.0.2": "2018-08-16T08:10:03+00:00",
+    "2.0.3": "2019-09-22T08:20:02+00:00"
+  },
+  "title": "Private Configuration for 'R' Packages",
+  "versions": {
+    "1.0.0": {
+      "Author": "Gabor Csardi",
+      "BugReports": "https://github.com/gaborcsardi/pkgconfig/issues",
+      "Date/Publication": "2015-07-13 08:30:36",
+      "Description": "Set configuration options on a per-package basis.<U+000a>Options set by a given package only apply to that package,<U+000a>other packages are unaffected.",
+      "Imports": {
+        "utils": "*"
+      },
+      "LazyData": "true",
+      "License": "MIT + file LICENSE",
+      "Maintainer": "Gabor Csardi <csardi.gabor@gmail.com>",
+      "NeedsCompilation": "no",
+      "Package": "pkgconfig",
+      "Packaged": "2015-07-13 01:45:01 UTC; gaborcsardi",
+      "Repository": "CRAN",
+      "Suggests": {
+        "disposables": "*",
+        "testthat": "*"
+      },
+      "Title": "Private Configuration for 'R' Packages",
+      "URL": "https://github.com/gaborcsardi/pkgconfig",
+      "Version": "1.0.0",
+      "crandb_file_date": "2015-07-13 02:31:15",
+      "date": "2015-07-13T08:30:36+00:00",
+      "releases": []
+    },
+    "2.0.0": {
+      "Author": "Gabor Csardi",
+      "BugReports": "https://github.com/gaborcsardi/pkgconfig/issues",
+      "Date/Publication": "2015-07-18 17:36:41",
+      "Description": "Set configuration options on a per-package basis.\nOptions set by a given package only apply to that package,\nother packages are unaffected.",
+      "Imports": {
+        "utils": "*"
+      },
+      "LazyData": "true",
+      "License": "MIT + file LICENSE",
+      "Maintainer": "Gabor Csardi <csardi.gabor@gmail.com>",
+      "NeedsCompilation": "no",
+      "Package": "pkgconfig",
+      "Packaged": "2015-07-18 14:08:19 UTC; gaborcsardi",
+      "Repository": "CRAN",
+      "Suggests": {
+        "disposables": "*",
+        "testthat": "*"
+      },
+      "Title": "Private Configuration for 'R' Packages",
+      "URL": "https://github.com/gaborcsardi/pkgconfig",
+      "Version": "2.0.0",
+      "crandb_file_date": "2015-07-18 11:38:19",
+      "date": "2015-07-18T17:36:41+00:00",
+      "releases": []
+    },
+    "2.0.1": {
+      "Author": "G\u00e1bor Cs\u00e1rdi",
+      "BugReports": "https://github.com/gaborcsardi/pkgconfig/issues",
+      "Date/Publication": "2017-03-21 15:20:20 UTC",
+      "Description": "Set configuration options on a per-package basis.\nOptions set by a given package only apply to that package,\nother packages are unaffected.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "utils": "*"
+      },
+      "LazyData": "true",
+      "License": "MIT + file LICENSE",
+      "Maintainer": "G\u00e1bor Cs\u00e1rdi <csardi.gabor@gmail.com>",
+      "NeedsCompilation": "no",
+      "Package": "pkgconfig",
+      "Packaged": "2017-03-21 10:15:26 UTC; gaborcsardi",
+      "Repository": "CRAN",
+      "Suggests": {
+        "covr": "*",
+        "disposables": ">= 1.0.3",
+        "testthat": "*"
+      },
+      "Title": "Private Configuration for 'R' Packages",
+      "URL": "https://github.com/gaborcsardi/pkgconfig",
+      "Version": "2.0.1",
+      "crandb_file_date": "2017-03-21 15:23:56",
+      "date": "2017-03-21T14:20:20+00:00",
+      "releases": []
+    },
+    "2.0.2": {
+      "Author": "G\u00e1bor Cs\u00e1rdi",
+      "BugReports": "https://github.com/r-lib/pkgconfig/issues",
+      "Date/Publication": "2018-08-16 09:10:03 UTC",
+      "Description": "Set configuration options on a per-package basis.\nOptions set by a given package only apply to that package,\nother packages are unaffected.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "utils": "*"
+      },
+      "LazyData": "true",
+      "License": "MIT + file LICENSE",
+      "MD5sum": "65742ce8a9e6d167f5c4181a61ca7ff2",
+      "Maintainer": "G\u00e1bor Cs\u00e1rdi <csardi.gabor@gmail.com>",
+      "NeedsCompilation": "no",
+      "Package": "pkgconfig",
+      "Packaged": "2018-08-16 08:36:36 UTC; gaborcsardi",
+      "Repository": "CRAN",
+      "Suggests": {
+        "covr": "*",
+        "disposables": ">= 1.0.3",
+        "testthat": "*"
+      },
+      "Title": "Private Configuration for 'R' Packages",
+      "URL": "https://github.com/r-lib/pkgconfig#readme",
+      "Version": "2.0.2",
+      "crandb_file_date": "2018-08-16 09:14:37",
+      "date": "2018-08-16T08:10:03+00:00",
+      "releases": []
+    },
+    "2.0.3": {
+      "Author": "G\u00e1bor Cs\u00e1rdi",
+      "BugReports": "https://github.com/r-lib/pkgconfig/issues",
+      "Date/Publication": "2019-09-22 09:20:02 UTC",
+      "Description": "Set configuration options on a per-package basis.\nOptions set by a given package only apply to that package,\nother packages are unaffected.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "utils": "*"
+      },
+      "LazyData": "true",
+      "License": "MIT + file LICENSE",
+      "MD5sum": "7b9ca1d45d941238381cb55d13ff4d68",
+      "Maintainer": "G\u00e1bor Cs\u00e1rdi <csardi.gabor@gmail.com>",
+      "NeedsCompilation": "no",
+      "Package": "pkgconfig",
+      "Packaged": "2019-09-22 08:42:40 UTC; gaborcsardi",
+      "Repository": "CRAN",
+      "Suggests": {
+        "covr": "*",
+        "disposables": ">= 1.0.3",
+        "testthat": "*"
+      },
+      "Title": "Private Configuration for 'R' Packages",
+      "URL": "https://github.com/r-lib/pkgconfig#readme",
+      "Version": "2.0.3",
+      "crandb_file_date": "2019-09-22 10:56:39",
+      "date": "2019-09-22T08:20:02+00:00",
+      "releases": []
+    }
+  }
+}

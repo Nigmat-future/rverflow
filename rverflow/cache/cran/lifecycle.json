@@ -1,0 +1,314 @@
+{
+  "_id": "lifecycle",
+  "_rev": "11-a878425dd451c19930f50094e4456e00",
+  "archived": false,
+  "latest": "1.0.4",
+  "name": "lifecycle",
+  "timeline": {
+    "0.1.0": "2019-08-01T11:50:05+00:00",
+    "0.2.0": "2020-03-06T15:20:02+00:00",
+    "1.0.0": "2021-02-15T14:20:06+00:00",
+    "1.0.1": "2021-09-24T14:30:02+00:00",
+    "1.0.2": "2022-09-09T10:42:54+00:00",
+    "1.0.3": "2022-10-07T08:50:02+00:00",
+    "1.0.4": "2023-11-07T09:10:10+00:00"
+  },
+  "title": "Manage the Life Cycle of your Package Functions",
+  "versions": {
+    "0.1.0": {
+      "Author": "Lionel Henry [aut, cre],\nRStudio [cph]",
+      "Authors@R": "\nc(\nperson(given = \"Lionel\", family = \"Henry\", role = c(\"aut\", \"cre\"), email = \"lionel@rstudio.com\"),\nperson(given = \"RStudio\", role = \"cph\")\n)",
+      "BugReports": "https://github.com/r-lib/lifecycle/issues",
+      "Date/Publication": "2019-08-01 12:50:05 UTC",
+      "Depends": {
+        "R": ">= 3.2"
+      },
+      "Description": "Manage the life cycle of your exported functions with\nshared conventions, documentation badges, and non-invasive\ndeprecation warnings. The 'lifecycle' package defines four\ndevelopment stages (experimental, maturing, stable, and\nquestioning) and three deprecation stages (soft-deprecated,\ndeprecated, and defunct). It makes it easy to insert badges\ncorresponding to these stages in your documentation. Usage of\ndeprecated functions are signalled with increasing levels of\nnon-invasive verbosity.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "glue": "*",
+        "rlang": ">= 0.4.0"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "MD5sum": "a039f080eb1dc67a40ce92ddced20cac",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "lifecycle",
+      "Packaged": "2019-07-27 07:28:35 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.1.1",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "knitr": "*",
+        "rmarkdown": "*",
+        "testthat": ">= 2.1.0"
+      },
+      "Title": "Manage the Life Cycle of your Package Functions",
+      "URL": "https://github.com/r-lib/lifecycle",
+      "Version": "0.1.0",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2019-08-01 14:08:23",
+      "date": "2019-08-01T11:50:05+00:00",
+      "releases": []
+    },
+    "0.2.0": {
+      "Author": "Lionel Henry [aut, cre],\nRStudio [cph]",
+      "Authors@R": "\nc(\nperson(given = \"Lionel\", family = \"Henry\", role = c(\"aut\", \"cre\"), email = \"lionel@rstudio.com\"),\nperson(given = \"RStudio\", role = \"cph\")\n)",
+      "BugReports": "https://github.com/r-lib/lifecycle/issues",
+      "Date/Publication": "2020-03-06 16:20:02 UTC",
+      "Depends": {
+        "R": ">= 3.2"
+      },
+      "Description": "Manage the life cycle of your exported functions with\nshared conventions, documentation badges, and non-invasive\ndeprecation warnings. The 'lifecycle' package defines four\ndevelopment stages (experimental, maturing, stable, and\nquestioning) and three deprecation stages (soft-deprecated,\ndeprecated, and defunct). It makes it easy to insert badges\ncorresponding to these stages in your documentation. Usage of\ndeprecated functions are signalled with increasing levels of\nnon-invasive verbosity.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "glue": "*",
+        "rlang": ">= 0.4.0"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "MD5sum": "42f1d553553ad8f092a20817a3077a6f",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "lifecycle",
+      "Packaged": "2020-03-06 15:50:11 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.0.2",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "knitr": "*",
+        "rmarkdown": "*",
+        "testthat": ">= 2.1.0"
+      },
+      "Title": "Manage the Life Cycle of your Package Functions",
+      "URL": "https://lifecycle.r-lib.org/, https://github.com/r-lib/lifecycle",
+      "Version": "0.2.0",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2020-03-06 16:56:28",
+      "date": "2020-03-06T15:20:02+00:00",
+      "releases": []
+    },
+    "1.0.0": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\nRStudio [cph]",
+      "Authors@R": "\nc(person(given = \"Lionel\",\nfamily = \"Henry\",\nrole = c(\"aut\", \"cre\"),\nemail = \"lionel@rstudio.com\"),\nperson(given = \"Hadley\",\nfamily = \"Wickham\",\nrole = \"aut\",\nemail = \"hadley@rstudio.com\",\ncomment = c(ORCID = \"0000-0003-4757-117X\")),\nperson(given = \"RStudio\",\nrole = \"cph\"))",
+      "BugReports": "https://github.com/r-lib/lifecycle/issues",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2021-02-15 15:20:06 UTC",
+      "Depends": {
+        "R": ">= 3.3"
+      },
+      "Description": "Manage the life cycle of your exported functions\nwith shared conventions, documentation badges, and user-friendly\ndeprecation warnings.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "glue": "*",
+        "rlang": ">= 0.4.10"
+      },
+      "LazyData": "true",
+      "License": "MIT + file LICENSE",
+      "MD5sum": "183308b5bd86feedb41d34e741f6c67b",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "lifecycle",
+      "Packaged": "2021-02-15 13:48:33 UTC; hadley",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.1.1",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "knitr": "*",
+        "rmarkdown": "*",
+        "testthat": ">= 3.0.1",
+        "tibble": "*"
+      },
+      "Title": "Manage the Life Cycle of your Package Functions",
+      "URL": "https://lifecycle.r-lib.org/, https://github.com/r-lib/lifecycle",
+      "Version": "1.0.0",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2021-02-15 17:38:33",
+      "date": "2021-02-15T14:20:06+00:00",
+      "releases": []
+    },
+    "1.0.1": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\nRStudio [cph]",
+      "Authors@R": "\nc(person(given = \"Lionel\",\nfamily = \"Henry\",\nrole = c(\"aut\", \"cre\"),\nemail = \"lionel@rstudio.com\"),\nperson(given = \"Hadley\",\nfamily = \"Wickham\",\nrole = \"aut\",\nemail = \"hadley@rstudio.com\",\ncomment = c(ORCID = \"0000-0003-4757-117X\")),\nperson(given = \"RStudio\",\nrole = \"cph\"))",
+      "BugReports": "https://github.com/r-lib/lifecycle/issues",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2021-09-24 15:30:02 UTC",
+      "Depends": {
+        "R": ">= 3.3"
+      },
+      "Description": "Manage the life cycle of your exported functions\nwith shared conventions, documentation badges, and user-friendly\ndeprecation warnings.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "glue": "*",
+        "rlang": ">= 0.4.10"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "e9f7135a17ff300c2ab6a9e6b72e3810",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "lifecycle",
+      "Packaged": "2021-09-24 14:46:50 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.1.2",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "knitr": "*",
+        "lintr": "*",
+        "rmarkdown": "*",
+        "testthat": ">= 3.0.1",
+        "tibble": "*",
+        "tidyverse": "*",
+        "tools": "*",
+        "vctrs": "*"
+      },
+      "Title": "Manage the Life Cycle of your Package Functions",
+      "URL": "https://lifecycle.r-lib.org/, https://github.com/r-lib/lifecycle",
+      "Version": "1.0.1",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2021-09-24 16:26:30",
+      "date": "2021-09-24T14:30:02+00:00",
+      "releases": []
+    },
+    "1.0.2": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\nRStudio [cph, fnd]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\",\ncomment = c(ORCID = \"0000-0003-4757-117X\")),\nperson(\"RStudio\", role = c(\"cph\", \"fnd\"))\n)",
+      "BugReports": "https://github.com/r-lib/lifecycle/issues",
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2022-09-09 11:42:54 UTC",
+      "Depends": {
+        "R": ">= 3.4"
+      },
+      "Description": "Manage the life cycle of your exported functions with shared\nconventions, documentation badges, and user-friendly deprecation\nwarnings.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "glue": "*",
+        "rlang": ">= 1.0.5"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "10cd8996f0167d1f11024888488c2070",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "lifecycle",
+      "Packaged": "2022-09-01 15:20:36 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.2.1",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "knitr": "*",
+        "lintr": "*",
+        "rmarkdown": "*",
+        "testthat": ">= 3.0.1",
+        "tibble": "*",
+        "tidyverse": "*",
+        "tools": "*",
+        "vctrs": "*"
+      },
+      "Title": "Manage the Life Cycle of your Package Functions",
+      "URL": "https://lifecycle.r-lib.org/, https://github.com/r-lib/lifecycle",
+      "Version": "1.0.2",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2022-09-09 13:02:45",
+      "date": "2022-09-09T10:42:54+00:00",
+      "releases": []
+    },
+    "1.0.3": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\nRStudio [cph, fnd]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\",\ncomment = c(ORCID = \"0000-0003-4757-117X\")),\nperson(\"RStudio\", role = c(\"cph\", \"fnd\"))\n)",
+      "BugReports": "https://github.com/r-lib/lifecycle/issues",
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2022-10-07 09:50:02 UTC",
+      "Depends": {
+        "R": ">= 3.4"
+      },
+      "Description": "Manage the life cycle of your exported functions with shared\nconventions, documentation badges, and user-friendly deprecation\nwarnings.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "cli": ">= 3.4.0",
+        "glue": "*",
+        "rlang": ">= 1.0.6"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "023bff9f9b99ca56ed01b705a41a8bed",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "lifecycle",
+      "Packaged": "2022-10-07 08:50:55 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.2.1",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "knitr": "*",
+        "lintr": "*",
+        "rmarkdown": "*",
+        "testthat": ">= 3.0.1",
+        "tibble": "*",
+        "tidyverse": "*",
+        "tools": "*",
+        "vctrs": "*",
+        "withr": "*"
+      },
+      "Title": "Manage the Life Cycle of your Package Functions",
+      "URL": "https://lifecycle.r-lib.org/, https://github.com/r-lib/lifecycle",
+      "Version": "1.0.3",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2022-10-07 11:32:33",
+      "date": "2022-10-07T08:50:02+00:00",
+      "releases": []
+    },
+    "1.0.4": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut] (<https://orcid.org/0000-0003-4757-117X>),\nPosit Software, PBC [cph, fnd]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\",\ncomment = c(ORCID = \"0000-0003-4757-117X\")),\nperson(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n)",
+      "BugReports": "https://github.com/r-lib/lifecycle/issues",
+      "Config/Needs/website": "tidyverse/tidytemplate, usethis",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2023-11-07 10:10:10 UTC",
+      "Depends": {
+        "R": ">= 3.6"
+      },
+      "Description": "Manage the life cycle of your exported functions with shared\nconventions, documentation badges, and user-friendly deprecation\nwarnings.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "cli": ">= 3.4.0",
+        "glue": "*",
+        "rlang": ">= 1.1.0"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "4490cb8f9777f1ff4bae184d51d24405",
+      "Maintainer": "Lionel Henry <lionel@posit.co>",
+      "NeedsCompilation": "no",
+      "Package": "lifecycle",
+      "Packaged": "2023-11-06 16:07:36 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.2.1",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "knitr": "*",
+        "lintr": "*",
+        "rmarkdown": "*",
+        "testthat": ">= 3.0.1",
+        "tibble": "*",
+        "tidyverse": "*",
+        "tools": "*",
+        "vctrs": "*",
+        "withr": "*"
+      },
+      "Title": "Manage the Life Cycle of your Package Functions",
+      "URL": "https://lifecycle.r-lib.org/, https://github.com/r-lib/lifecycle",
+      "Version": "1.0.4",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2023-11-07 11:15:27",
+      "date": "2023-11-07T09:10:10+00:00",
+      "releases": []
+    }
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "_id": "tidyselect",
+  "_rev": "16-1a11777c1c75f3b6871158d6e65eb5d0",
+  "archived": false,
+  "latest": "1.2.1",
+  "name": "tidyselect",
+  "timeline": {
+    "0.1.1": "2017-07-24T09:39:37+00:00",
+    "0.2.0": "2017-08-30T12:54:39+00:00",
+    "0.2.1": "2017-10-09T21:36:20+00:00",
+    "0.2.2": "2017-10-10T21:04:35+00:00",
+    "0.2.3": "2017-11-06T20:55:42+00:00",
+    "0.2.4": "2018-02-26T16:17:19+00:00",
+    "0.2.5": "2018-10-11T12:00:03+00:00",
+    "1.0.0": "2020-01-27T19:20:02+00:00",
+    "1.1.0": "2020-05-11T22:10:07+00:00",
+    "1.1.1": "2021-04-30T05:40:02+00:00",
+    "1.1.2": "2022-02-21T15:00:02+00:00",
+    "1.2.0": "2022-10-10T18:00:02+00:00",
+    "1.2.1": "2024-03-11T13:10:02+00:00"
+  },
+  "title": "Select from a Set of Strings",
+  "versions": {
+    "0.1.1": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "ByteCompile": "true",
+      "Date/Publication": "2017-07-24 10:39:37 UTC",
+      "Depends": {
+        "R": ">= 3.1.0"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "Rcpp": ">= 0.12.0",
+        "glue": "*",
+        "rlang": ">= 0.1"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "LinkingTo": {
+        "Rcpp": ">= 0.12.0"
+      },
+      "MD5sum": "b7f6bd779f1886a188f014a9df77ff40",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2017-07-24 09:12:34 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.0.1",
+      "Suggests": {
+        "testthat": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "Version": "0.1.1",
+      "crandb_file_date": "2017-07-24 10:41:50",
+      "date": "2017-07-24T09:39:37+00:00",
+      "releases": []
+    },
+    "0.2.0": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "ByteCompile": "true",
+      "Date/Publication": "2017-08-30 13:54:39 UTC",
+      "Depends": {
+        "R": ">= 3.1.0"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "Rcpp": ">= 0.12.0",
+        "glue": "*",
+        "purrr": "*",
+        "rlang": ">= 0.1"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "LinkingTo": {
+        "Rcpp": ">= 0.12.0"
+      },
+      "MD5sum": "c265f271254bfe52c253f6644b811e6d",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2017-08-30 12:08:48 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.0.1",
+      "Suggests": {
+        "testthat": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "Version": "0.2.0",
+      "crandb_file_date": "2017-08-30 14:53:59",
+      "date": "2017-08-30T12:54:39+00:00",
+      "releases": []
+    },
+    "0.2.1": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "ByteCompile": "true",
+      "Date/Publication": "2017-10-09 22:36:20 UTC",
+      "Depends": {
+        "R": ">= 3.1.0"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "Rcpp": ">= 0.12.0",
+        "glue": "*",
+        "purrr": "*",
+        "rlang": ">= 0.1"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "LinkingTo": {
+        "Rcpp": ">= 0.12.0"
+      },
+      "MD5sum": "109970eb77848dfe1b0dc7c97237ad5b",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2017-10-09 19:49:08 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.0.1",
+      "Suggests": {
+        "testthat": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "Version": "0.2.1",
+      "crandb_file_date": "2017-10-09 23:06:00",
+      "date": "2017-10-09T21:36:20+00:00",
+      "releases": []
+    },
+    "0.2.2": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "ByteCompile": "true",
+      "Date/Publication": "2017-10-10 22:04:35 UTC",
+      "Depends": {
+        "R": ">= 3.1.0"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "Rcpp": ">= 0.12.0",
+        "glue": "*",
+        "purrr": "*",
+        "rlang": ">= 0.1"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "LinkingTo": {
+        "Rcpp": ">= 0.12.0"
+      },
+      "MD5sum": "99f745ea07e58ebc455cf4dcca77e5fa",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2017-10-10 21:06:50 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.0.1",
+      "Suggests": {
+        "dplyr": "*",
+        "testthat": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "Version": "0.2.2",
+      "crandb_file_date": "2017-10-11 03:29:55",
+      "date": "2017-10-10T21:04:35+00:00",
+      "releases": []
+    },
+    "0.2.3": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "ByteCompile": "true",
+      "Date/Publication": "2017-11-06 21:55:42 UTC",
+      "Depends": {
+        "R": ">= 3.1.0"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "Rcpp": ">= 0.12.0",
+        "glue": "*",
+        "purrr": "*",
+        "rlang": ">= 0.1"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "LinkingTo": {
+        "Rcpp": ">= 0.12.0"
+      },
+      "MD5sum": "c9dbd895ad7ce209bacfad6d19de91c9",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2017-11-06 19:12:16 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.0.1",
+      "Suggests": {
+        "dplyr": "*",
+        "testthat": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "Version": "0.2.3",
+      "crandb_file_date": "2017-11-06 22:02:59",
+      "date": "2017-11-06T20:55:42+00:00",
+      "releases": []
+    },
+    "0.2.4": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "ByteCompile": "true",
+      "Date/Publication": "2018-02-26 17:17:19 UTC",
+      "Depends": {
+        "R": ">= 3.1"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "Rcpp": ">= 0.12.0",
+        "glue": "*",
+        "purrr": "*",
+        "rlang": ">= 0.2.0"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "LinkingTo": {
+        "Rcpp": ">= 0.12.0"
+      },
+      "MD5sum": "fa3bfe6ea9f0e98a20e950788ea9573d",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2018-02-26 15:19:21 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.0.1",
+      "Suggests": {
+        "covr": "*",
+        "dplyr": "*",
+        "testthat": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "Version": "0.2.4",
+      "crandb_file_date": "2018-02-26 17:20:30",
+      "date": "2018-02-26T16:17:19+00:00",
+      "releases": []
+    },
+    "0.2.5": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "ByteCompile": "true",
+      "Date/Publication": "2018-10-11 13:00:03 UTC",
+      "Depends": {
+        "R": ">= 3.1"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "Rcpp": ">= 0.12.0",
+        "glue": ">= 1.3.0",
+        "purrr": "*",
+        "rlang": ">= 0.2.2"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "LinkingTo": {
+        "Rcpp": ">= 0.12.0"
+      },
+      "MD5sum": "8a7d4060a5ed016cf4adeaf6014ca89c",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2018-10-11 12:25:22 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "6.1.0",
+      "Suggests": {
+        "covr": "*",
+        "dplyr": "*",
+        "testthat": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "Version": "0.2.5",
+      "crandb_file_date": "2018-10-11 13:02:23",
+      "date": "2018-10-11T12:00:03+00:00",
+      "releases": []
+    },
+    "1.0.0": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "BugReports": "https://github.com/r-lib/tidyselect/issues",
+      "ByteCompile": "true",
+      "Date/Publication": "2020-01-27 20:20:02 UTC",
+      "Depends": {
+        "R": ">= 3.2"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "ellipsis": "*",
+        "glue": ">= 1.3.0",
+        "purrr": ">= 0.3.2",
+        "rlang": ">= 0.4.3",
+        "vctrs": ">= 0.2.2"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "MD5sum": "dfb73f5fc014d8ea96a66d4c3776ae0b",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2020-01-27 18:35:49 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.0.2",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "dplyr": "*",
+        "knitr": "*",
+        "magrittr": "*",
+        "rmarkdown": "*",
+        "testthat": ">=\n2.3.0",
+        "tibble": ">= 2.1.3",
+        "withr": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "URL": "https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect",
+      "Version": "1.0.0",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2020-01-27 22:32:25",
+      "date": "2020-01-27T19:20:02+00:00",
+      "releases": []
+    },
+    "1.1.0": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "BugReports": "https://github.com/r-lib/tidyselect/issues",
+      "ByteCompile": "true",
+      "Date/Publication": "2020-05-11 23:10:07 UTC",
+      "Depends": {
+        "R": ">= 3.2"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "ellipsis": "*",
+        "glue": ">= 1.3.0",
+        "purrr": ">= 0.3.2",
+        "rlang": ">= 0.4.6",
+        "vctrs": ">= 0.2.2"
+      },
+      "LazyData": "true",
+      "License": "GPL-3",
+      "MD5sum": "a8faf13d0fd24cd58d7901e893e11bda",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2020-05-11 17:13:55 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.1.0",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "dplyr": "*",
+        "knitr": "*",
+        "magrittr": "*",
+        "rmarkdown": "*",
+        "testthat": ">=\n2.3.0",
+        "tibble": ">= 2.1.3",
+        "withr": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "URL": "https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect",
+      "Version": "1.1.0",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2020-05-12 00:26:34",
+      "date": "2020-05-11T22:10:07+00:00",
+      "releases": []
+    },
+    "1.1.1": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "BugReports": "https://github.com/r-lib/tidyselect/issues",
+      "ByteCompile": "true",
+      "Date/Publication": "2021-04-30 06:40:02 UTC",
+      "Depends": {
+        "R": ">= 3.2"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "ellipsis": "*",
+        "glue": ">= 1.3.0",
+        "purrr": ">= 0.3.2",
+        "rlang": ">= 0.4.6",
+        "vctrs": ">= 0.3.0"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "66681e8b8b6ee0846022fef963e756db",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2021-04-29 13:41:53 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.1.1",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "dplyr": "*",
+        "knitr": "*",
+        "magrittr": "*",
+        "rmarkdown": "*",
+        "testthat": ">=\n2.3.0",
+        "tibble": ">= 2.1.3",
+        "withr": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "URL": "https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect",
+      "Version": "1.1.1",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2021-04-30 08:14:40",
+      "date": "2021-04-30T05:40:02+00:00",
+      "releases": []
+    },
+    "1.1.2": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\nperson(\"RStudio\", role = \"cph\")\n)",
+      "BugReports": "https://github.com/r-lib/tidyselect/issues",
+      "ByteCompile": "true",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2022-02-21 16:00:02 UTC",
+      "Depends": {
+        "R": ">= 3.2"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.\nIt makes it easy to implement select-like functions in your own\npackages in a way that is consistent with other 'tidyverse'\ninterfaces for selection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "ellipsis": "*",
+        "glue": ">= 1.3.0",
+        "purrr": ">= 0.3.2",
+        "rlang": ">= 1.0.1",
+        "vctrs": ">= 0.3.0"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "d863d11e5c647e506888415c22a3dcd0",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2022-02-21 14:59:24 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.1.2",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "dplyr": "*",
+        "knitr": "*",
+        "magrittr": "*",
+        "rmarkdown": "*",
+        "testthat": ">=\n3.1.1",
+        "tibble": ">= 2.1.3",
+        "withr": "*"
+      },
+      "Title": "Select from a Set of Strings",
+      "URL": "https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect",
+      "Version": "1.1.2",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2022-02-21 18:14:25",
+      "date": "2022-02-21T15:00:02+00:00",
+      "releases": []
+    },
+    "1.2.0": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nRStudio [cph, fnd]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\"),\nperson(\"RStudio\", role = c(\"cph\", \"fnd\"))\n)",
+      "BugReports": "https://github.com/r-lib/tidyselect/issues",
+      "ByteCompile": "true",
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2022-10-10 19:00:02 UTC",
+      "Depends": {
+        "R": ">= 3.4"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.  It\nmakes it easy to implement select-like functions in your own packages\nin a way that is consistent with other 'tidyverse' interfaces for\nselection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "cli": ">= 3.3.0",
+        "glue": ">= 1.3.0",
+        "lifecycle": ">= 1.0.3",
+        "rlang": ">= 1.0.4",
+        "vctrs": ">= 0.4.1",
+        "withr": "*"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "147069ee8d8bc42f63f253311f6c1806",
+      "Maintainer": "Lionel Henry <lionel@rstudio.com>",
+      "NeedsCompilation": "no",
+      "Package": "tidyselect",
+      "Packaged": "2022-10-10 14:09:03 UTC; hadleywickham",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.2.1",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "dplyr": "*",
+        "knitr": "*",
+        "magrittr": "*",
+        "rmarkdown": "*",
+        "stringr": "*",
+        "testthat": ">= 3.1.1",
+        "tibble": ">= 2.1.3"
+      },
+      "Title": "Select from a Set of Strings",
+      "URL": "https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect",
+      "Version": "1.2.0",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2022-10-10 21:38:27",
+      "date": "2022-10-10T18:00:02+00:00",
+      "releases": []
+    },
+    "1.2.1": {
+      "Author": "Lionel Henry [aut, cre],\nHadley Wickham [aut],\nPosit Software, PBC [cph, fnd]",
+      "Authors@R": "c(\nperson(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = c(\"aut\", \"cre\")),\nperson(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = \"aut\"),\nperson(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n)",
+      "BugReports": "https://github.com/r-lib/tidyselect/issues",
+      "ByteCompile": "true",
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Date/Publication": "2024-03-11 14:10:02 UTC",
+      "Depends": {
+        "R": ">= 3.4"
+      },
+      "Description": "A backend for the selecting functions of the 'tidyverse'.  It\nmakes it easy to implement select-like functions in your own packages\nin a way that is consistent with other 'tidyverse' interfaces for\nselection.",
+      "Encoding": "UTF-8",
+      "Imports": {
+        "cli": ">= 3.3.0",
+        "glue": ">= 1.3.0",
+        "lifecycle": ">= 1.0.3",
+        "rlang": ">= 1.0.4",
+        "vctrs": ">= 0.5.2",
+        "withr": "*"
+      },
+      "License": "MIT + file LICENSE",
+      "MD5sum": "49c581292e819a2a39aac321f27ab0a8",
+      "Maintainer": "Lionel Henry <lionel@posit.co>",
+      "NeedsCompilation": "yes",
+      "Package": "tidyselect",
+      "Packaged": "2024-03-11 11:46:04 UTC; lionel",
+      "Repository": "CRAN",
+      "RoxygenNote": "7.3.0.9000",
+      "Suggests": {
+        "covr": "*",
+        "crayon": "*",
+        "dplyr": "*",
+        "knitr": "*",
+        "magrittr": "*",
+        "rmarkdown": "*",
+        "stringr": "*",
+        "testthat": ">= 3.1.1",
+        "tibble": ">= 2.1.3"
+      },
+      "Title": "Select from a Set of Strings",
+      "URL": "https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect",
+      "Version": "1.2.1",
+      "VignetteBuilder": "knitr",
+      "crandb_file_date": "2024-03-11 15:02:47",
+      "date": "2024-03-11T13:10:02+00:00",
+      "releases": []
+    }
+  }
+}
